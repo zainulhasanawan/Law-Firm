@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;800;900&family=Noto+Nastaliq+Urdu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <link rel="shortcut icon" href="img/Law-Firm.jpg" type="image/x-icon" />
+    <title>Law Firm</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <header class="header" id="home">
+      <div class="main-container">
+        <ul class="header-ul">
+          <li class="header-li">
+            <a
+              href="https://api.whatsapp.com/send?phone=+923004259559"
+              target="_blank"
+              ><ion-icon name="logo-facebook" class="social-icons"></ion-icon
+            ></a>
+          </li>
+
+          <li class="header-li">
+            <a href="https://wa.me/923004259559" target="_blank">
+              <ion-icon name="logo-whatsapp" class="social-icons"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+        <div>
+          <img src="img/Law-Firm.jpg" alt="logo" class="header-logo" />
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero-section">
+      <div class="main-container">
+        <nav class="navbar">
+          <ul class="navbar-ul">
+            <li><a href="#about">ABOUT ME</a></li>
+
+            <li><a href="#services">MY SERVICES</a></li>
+
+            <li><a href="#contact" class="btn">CONTACT ME</a></li>
+          </ul>
+        </nav>
+
+        <nav class="responsive-navbar">
+          <input type="checkbox" id="openSidebarMenu" />
+          <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner top"></div>
+            <div class="spinner middle"></div>
+            <div class="spinner bottom"></div>
+          </label>
+          <div id="sidebarMenu">
+            <ul class="menu">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">About ME</a></li>
+              <li><a href="#services">MY SERVICES</a></li>
+              <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="hero-text-div">
+          <h1 class="hero-h1">
+            <span class="hero-heading1"> Defending Your Rights:</span>
+            <span class="hero-heading2">Trusted Legal Advocate</span>
+          </h1>
+
+          <p class="hero-p">
+            Your interests and concerns are my top priority, and I'm committed
+            to providing you <br class="hero-br-tag" />
+            with the best legal advice to ensure your rights are protected.
+          </p>
+
+          <a href="#about" class="hero-btn btn-animated">get started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="about-section">
+      <h2 class="about-me">ABOUT ME</h2>
+
+      <div class="main-container">
+        <div class="about-flex-div">
+          <div class="about-img-container">
+            <div class="outer-div"></div>
+
+            <div>
+              <img
+                src="img/Nasir.png"
+                alt="Hafiz Nasir Mehmood Awan"
+                class="about-img"
+              />
+            </div>
+          </div>
+
+          <div class="about-text-div">
+            <p class="about-p">Hello, I'm</p>
+            <h2 class="about-h2">Hafiz Nasir Mehmood Awan</h2>
+            <p class="about-p2">
+              With over 19 Years of Experience, I have been Dealing Civil
+              Matters in Lahore High Court, Civil Court, Session Court, and
+              Board of Revenue.
+            </p>
+
+            <div class="about-social-media-div">
+              <a href="https://wa.me/923004259559" target="_blank">
+                <ion-icon name="logo-whatsapp" class="social-icons"></ion-icon>
+              </a>
+
+              <a
+                href="https://www.facebook.com/profile.php?id=100008847880568&mibextid=ZbWKwL"
+                ><ion-icon name="logo-facebook" class="social-icons"></ion-icon
+              ></a>
+            </div>
+
+            <button class="btn" id="more-about">More About</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="matters-section" id="services">
+      <div>
+        <h2 class="matters-h2">I DEAL WITH</h2>
+      </div>
+
+      <div class="main-container">
+        <div>
+          <ul class="matters-ul">
+            <li class="matters-li">
+              <div class="white-circle">
+                <img src="img/book-svg.svg" alt="" class="matters-li-icon" />
+              </div>
+              <span class="matters-li-span">Constitutional Law</span>
+            </li>
+
+            <li class="matters-li">
+              <div class="white-circle">
+                <img src="img/mace-svg.svg" alt="" class="matters-li-icon" />
+              </div>
+              <span class="matters-li-span">Family Issues</span>
+            </li>
+
+            <li class="matters-li">
+              <div class="white-circle">
+                <img src="img/court-svg.svg" alt="" class="matters-li-icon" />
+              </div>
+              <span class="matters-li-span">Real-Estate Law</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documentation Section -->
+
+    <section class="documnetation-section">
+      <h3 class="documentation-h3">
+        All types of Documents are Prepared under the Supervision of a Legal
+        Expert
+      </h3>
+
+      <div class="main-container">
+        <ul class="documenetation-ul">
+          <li class="documentation-li">بيع نامہ</li>
+          <li class="documentation-li">ہبہ نامہ</li>
+          <li class="documentation-li">مختار نامہ (عام و خاص)</li>
+          <li class="documentation-li">دستبرداری نامہ</li>
+          <li class="documentation-li">رجسٹری، انتقال</li>
+          <li class="documentation-li">ابطال نامہ</li>
+          <li class="documentation-li">اقرار نامہ</li>
+          <li class="documentation-li">وراثتی انتقال</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="main-container">
+        <div class="logo-div">
+          <img src="img/Law-Firm.jpg" alt="logo" class="logo" />
+        </div>
+
+        <h4 class="footer-h4">Feel Free to Contact for Legal Consultation</h4>
+
+        <div class="footer-social-media-div">
+          <a href="https://wa.me/923004259559" target="_blank">
+            <ion-icon name="logo-whatsapp" class="footer-icons"></ion-icon>
+          </a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=100008847880568&mibextid=ZbWKwL"
+            ><ion-icon name="logo-facebook" class="footer-icons"></ion-icon
+          ></a>
+        </div>
+      </div>
+      <hr />
+
+      <p class="copyright">Code by Zain Ul Hassan Awan. All Rights Reserved.</p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      document
+        .getElementById("more-about")
+        .addEventListener("click", function () {
+          window.location.href = "more-about.html";
+        });
+    </script>
+
+    <script>
+      const menuLinks = document.querySelectorAll(".menu a");
+
+      menuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          document.getElementById("openSidebarMenu").checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>

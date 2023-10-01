@@ -1,0 +1,242 @@
+@media (max-width: 1100px) {
+  .navbar {
+    display: none;
+  }
+
+  .responsive-navbar {
+    display: block;
+  }
+
+  #sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 72px;
+    width: 250px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background: #202a38;
+    z-index: 20;
+  }
+
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .menu li a {
+    color: #fff;
+    display: block;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  #openSidebarMenu:checked ~ #sidebarMenu {
+    transform: translateX(0);
+  }
+
+  input#openSidebarMenu {
+    display: none;
+  }
+
+  .sidebarIconToggle {
+    width: 3rem;
+    position: absolute;
+    z-index: 99;
+    top: 22px;
+    right: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .spinner {
+    height: 3px;
+    background: #fa207a;
+    transition: all 0.3s;
+  }
+
+  .spinner.middle,
+  .spinner.bottom {
+    margin-top: 5px;
+  }
+
+  #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle {
+    opacity: 0;
+  }
+
+  #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+  }
+
+  #openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu li a {
+    font-size: 2rem;
+  }
+
+  .hero-br-tag {
+    display: none;
+  }
+
+  .hero-heading1 {
+    font-size: 8rem;
+  }
+
+  .hero-heading2 {
+    font-size: 6.5rem;
+  }
+
+  .hero-p {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-heading2 {
+    font-size: 5.7rem;
+  }
+
+  .hero-section {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-heading1 {
+    font-size: 5.7rem;
+  }
+
+  .hero-heading2 {
+    font-size: 4.3rem;
+  }
+
+  .hero-p {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+  }
+
+  .hero-btn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+  }
+
+  .hero-section {
+    height: 80vh;
+  }
+}
+
+/****************************************/
+
+@media (max-width: 1130px) {
+  .about-img {
+    width: 40rem;
+    height: 47rem;
+  }
+
+  .about-h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-p2,
+  .about-p {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .about-flex-div {
+    flex-direction: column;
+    gap: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-img {
+    width: 36rem;
+    height: 44rem;
+  }
+
+  .about-h2 {
+    font-size: 2.7rem;
+  }
+
+  .about-p2,
+  .about-p {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-img {
+    width: 34rem;
+    height: 40rem;
+  }
+
+  .about-p2,
+  .about-p {
+    font-size: 2.1rem;
+  }
+
+  .about-me {
+    margin-bottom: 5rem;
+  }
+
+  .about-flex-div {
+    gap: 4rem;
+  }
+
+  .about-social-media-div {
+    gap: 2rem;
+  }
+}
+
+/****************************************/
+
+@media (max-width: 850px) {
+  .matters-ul {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+/****************************************/
+
+@media (max-width: 620px) {
+  .documentation-h3 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .documentation-h3 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/****************************************/
+
+@media (max-width: 500px) {
+  .footer-h4 {
+    font-size: 4rem;
+  }
+}
